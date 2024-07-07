@@ -22,10 +22,13 @@
 /* header style start here  */
 header {
     max-width: 1600px;
-    height: 837px;
     width: 100%;
     margin: 0 auto;
     background: rgb(255, 248, 243);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom 30px left, right bottom;
+
 }
 
 /* header style end here  */
@@ -60,3 +63,54 @@ a {
 }
 
 /* nav bar style end here */
+/* banner section style start here  */
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-content {
+    width: 585px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner-content>h2 {
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-content>h1 {
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.banner-content>p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+.content-btn{
+    color: rgb(253, 110, 10);
+font-size: 20px;
+font-weight: 700;
+padding:18px 30px ;
+background: transparent;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+margin-left: 30px;
+
+}
+.banner-img{
+    width: 584px;
+    
+}
+.banner-img > img{
+    width: 100%;
+  
+}
+
+/* banner section style end here  */
