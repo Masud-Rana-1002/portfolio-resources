@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common button */
+.btn {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 18px 36px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.primary-color {
+    color: rgb(253, 110, 10);
+}
+
+/* header style start here  */
+header {
+    max-width: 1600px;
+    height: 837px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(255, 248, 243);
+}
+
+/* header style end here  */
+/* nav bar style start here */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+nav>h2 {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* nav bar style end here */
