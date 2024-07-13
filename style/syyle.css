@@ -20,7 +20,8 @@
 }
 
 section {
-    width: 1140px;
+    max-width: 1140px;
+
     margin: 130px auto;
 }
 
@@ -29,6 +30,7 @@ header {
     max-width: 1600px;
     width: 100%;
     margin: 0 auto;
+    padding: 10px;
     background: rgb(255, 248, 243);
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
@@ -125,7 +127,8 @@ a {
 /* banner section style end here  */
 /* About Me section style  start here */
 #about-me {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     height: 550px;
     border-radius: 10px;
     background: rgb(255, 248, 243);
@@ -136,7 +139,8 @@ a {
 }
 
 .about-me {
-    width: 827px;
+    max-width: 827px;
+    
     height: 288px;
     box-sizing: border-box;
     border: 1px solid rgb(0, 0, 0);
@@ -242,6 +246,11 @@ a {
 
 /* What I do section end here */
 /*  A summary of My Resume section start here */
+.summary-section{
+    padding: 10px;
+ 
+}
+
 .summary-taitel {
     color: rgb(24, 24, 24);
     font-size: 35px;
@@ -251,6 +260,7 @@ a {
 }
 
 .education {
+    width: 100%;
     color: rgb(71, 71, 71);
     font-family: Open Sans;
     font-size: 30px;
@@ -283,13 +293,18 @@ a {
     text-align: left;
 }
 
-.resume {}
+.resume {
+    width:80%;
+    margin: 0 auto;
+}
 
 .resume-contant {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    width: 90%;
+    margin: 0 0;
 }
 
 .resum {
@@ -300,13 +315,15 @@ a {
 }
 
 .butt {
+    margin: 90%;
     text-align: center;
     margin: 50px auto;
+
 }
 
 hr {
     margin: 20px 0;
-    width: 550px;
+    width: 90%;
 }
 
 /*  A summary of My Resume section end here */
@@ -325,6 +342,7 @@ footer {
 .frome {
     display: flex;
     flex-direction: column;
+
 }
 
 .frome>h3 {
@@ -351,7 +369,7 @@ footer {
 }
 
 input {
-    width: 461px;
+   width: 461px;
     height: 64px;
     border-radius: 5px;
     background: rgb(255, 255, 255);

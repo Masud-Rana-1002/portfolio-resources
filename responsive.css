@@ -1,0 +1,692 @@
+@media screen and (max-width:320px) {
+    /* header style start here  */
+ 
+    /* nav bar style start here */
+nav {
+  flex-direction: column;
+}
+
+nav>h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+ul {
+   flex-direction: column;
+   margin-top: 5px;
+}
+a {
+    font-size: 16px;
+}
+
+/* nav bar style end here */
+/* banner section style start here  */
+.banner-section{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.banner-content {
+    width: 100%;
+}
+
+.banner-content>h2 {
+    font-size: 2em;
+}
+
+.banner-content>h1 {
+    font-size: 3em;
+}
+
+.banner-content>p {
+    font-size: 14px;
+
+}
+.btn {
+    padding: 15px 15px;
+    font-size: 16px;
+}
+
+.content-btn {
+    font-size: 1em;
+    padding: 14px 20px;
+    margin: 10px auto;
+}
+
+.banner-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-img>img {
+    width: 100%;
+
+}
+
+/* banner section style end here  */
+/* About Me section style  start here */
+#about-me {
+    width:100%;
+    height: auto;
+   
+}
+
+.about-me {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.about-me>h2 {
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-me>p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.infos {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+
+/* About Me section style  end here */
+/* What I do section start here */
+section{
+    width: 100%;
+}
+.What-I-do-section{
+    padding: 10px;
+}
+.What-I-do-content>p {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.skill {
+    flex-direction: column;
+    width:100%;
+    
+}
+
+.skill-card {
+    width: 100%;
+    margin: 10px auto;
+
+    flex-direction: column;
+}
+/* What I do section end here */
+/*  A summary of My Resume section start here */
+.summary-section{
+    padding: 10px;
+}
+.summary-taitel {
+    font-size: 1.3em;
+    margin: 10px auto;
+}
+
+.education {
+    font-size: 1.5em;
+}
+
+.degn>h3 {
+    font-size: 1.2em;;
+}
+
+.degn>p {
+    font-size: 1em;
+}
+.resume-contant {
+   flex-direction: column;
+}
+
+.resum {
+    flex-direction: column;
+    width: 100%;
+}
+
+.butt {
+    text-align: center;
+    margin: 50px auto;
+}
+
+hr {
+    width: 90%;
+}
+
+/*  A summary of My Resume section end here */
+/* footer section style start */
+footer {
+    max-width: 1600px;
+    height: auto;
+   flex-direction: column;
+    padding-top:130px ;
+    
+    
+}
+.footer-content{
+    width: 100%;
+    margin: 0 auto;
+}
+.frome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frome>h3 {
+    color: rgb(24, 24, 24);
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-content > h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer-content>p {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+input {
+    height: 50px;
+    width: 90%;
+    margin: 10px auto;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+textarea {
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* footer section style end */
+
+}
+
+/* screen size 480px  */
+@media screen and (min-width:321px) and (max-width: 480px) {
+    /* header style start here  */
+ 
+    /* nav bar style start here */
+
+nav>h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+a {
+    font-size: 20px;
+}
+
+/* nav bar style end here */
+/* banner section style start here  */
+.banner-section{
+    flex-direction: column;
+    padding: 3%;
+}
+
+.banner-content {
+    width: 100%;
+}
+
+.banner-content>h2 {
+    font-size: 2em;
+}
+
+.banner-content>h1 {
+    font-size: 3em;
+}
+
+.banner-content>p {
+    font-size: 14px;
+
+}
+.btn {
+    padding: 15px 15px;
+    font-size: 16px;
+}
+
+.content-btn {
+    font-size: 1em;
+    padding: 14px 20px;
+}
+
+.banner-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-img>img {
+    width: 100%;
+
+}
+
+/* banner section style end here  */
+/* About Me section style  start here */
+#about-me {
+    width:100%;
+    height: auto;
+   
+}
+
+.about-me {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.infos {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+/* About Me section style  end here */
+
+/* What I do section start here */
+section{
+    width: 100%;
+}
+.What-I-do-section{
+    padding: 10px;
+}
+.What-I-do-content>p {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.skill {
+    flex-direction: column;
+    width:100%;
+    
+}
+
+.skill-card {
+    width: 100%;
+    margin: 10px auto;
+
+    flex-direction: column;
+}
+/* What I do section end here */
+/*  A summary of My Resume section start here */
+.summary-section{
+    padding: 10px;
+}
+.summary-taitel {
+    font-size: 1.3em;
+    margin: 10px auto;
+}
+
+.education {
+    font-size: 1.5em;
+}
+
+.degn>h3 {
+    font-size: 1.2em;;
+}
+
+.degn>p {
+    font-size: 1em;
+}
+.resume-contant {
+   flex-direction: column;
+}
+
+.resum {
+    flex-direction: column;
+    width: 100%;
+}
+
+.butt {
+    text-align: center;
+    margin: 50px auto;
+}
+
+hr {
+    width: 90%;
+}
+
+/*  A summary of My Resume section end here */
+
+/* footer section style start */
+footer {
+    max-width: 1600px;
+    height: auto;
+   flex-direction: column;
+    padding-top:130px ;
+    
+    
+}
+.footer-content{
+    width: 100%;
+    margin: 0 auto;
+}
+.frome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frome>h3 {
+    color: rgb(24, 24, 24);
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-content > h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer-content>p {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+input {
+    height: 50px;
+    width: 90%;
+    margin: 10px auto;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+textarea {
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* footer section style end */
+}
+/* screen sige 768px  */
+@media screen and (min-width:481px) and (max-width: 768px){
+    .btn {
+        padding: 15px 15px;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+ .content-btn{
+    margin-left: 0px;
+ }
+    /* About Me section style  start here */
+#about-me {
+    width:100%;
+    height: auto;
+   
+}
+
+.about-me {
+    height: auto;
+    
+}
+.infos {
+    
+    width: 100%;
+    margin-top: 10px;
+
+}
+/* What I do section start here */
+section{
+    width: 100%;
+}
+.What-I-do-section{
+    padding: 10px;
+}
+.What-I-do-content>p {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.skill {
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+    
+    
+}
+
+.skill-card {
+    width:47%;
+    margin: 10px 10px;
+}
+/* What I do section end here */
+
+/* About Me section style  end here */
+/*  A summary of My Resume section start here */
+.summary-section{
+    padding: 10px;
+}
+.summary-taitel {
+    font-size: 1.3em;
+    margin: 10px auto;
+}
+
+.education {
+    font-size: 1.5em;
+}
+
+.degn>h3 {
+    font-size: 1.2em;;
+}
+
+.degn>p {
+    font-size: 1em;
+}
+.resume-contant {
+   flex-direction: column;
+}
+
+.resum {
+    flex-direction: column;
+    width: 100%;
+}
+
+.butt {
+    text-align: center;
+    margin: 50px auto;
+}
+
+hr {
+    width: 90%;
+}
+/* footer section style start */
+footer {
+    max-width: 1600px;
+    height: auto;
+   flex-direction: column;
+    padding-top:130px ;
+    
+    
+}
+.footer-content{
+    width: 100%;
+    margin: 0 auto;
+}
+.frome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frome>h3 {
+    color: rgb(24, 24, 24);
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-content > h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer-content>p {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+input {
+    height: 50px;
+    width: 90%;
+    margin: 10px auto;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+textarea {
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* footer section style end */
+/*  A summary of My Resume section end here */
+
+}
+@media screen and (min-width:768px) and (max-width: 1024px){
+    .btn {
+        padding: 15px 15px;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .skill {
+        flex-wrap: wrap;
+        width:100%;
+        
+    }
+    
+    .skill-card {
+        width:47%;
+        margin: 10px 10px;
+    }
+    section{
+        width: 100%;
+    }
+    .What-I-do-section{
+        width: 100%;
+        padding: 10px;
+    }
+  /*  A summary of My Resume section start here */
+.summary-section{
+    padding: 10px;
+}
+.summary-taitel {
+    font-size: 1.3em;
+    margin: 10px auto;
+}
+
+.education {
+    font-size: 1.5em;
+}
+
+.degn>h3 {
+    font-size: 1.2em;;
+}
+
+.degn>p {
+    font-size: 1em;
+}
+.resume-contant {
+   flex-direction: column;
+}
+
+.resum {
+    flex-direction: column;
+    width: 100%;
+}
+
+.butt {
+    text-align: center;
+    margin: 50px auto;
+}
+
+hr {
+    width: 90%;
+}
+/* footer section style start */
+footer {
+    max-width: 1600px;
+    height: auto;
+   flex-direction: column;
+    padding-top:130px ;
+    
+    
+}
+.footer-content{
+    width: 100%;
+    margin: 0 auto;
+}
+.frome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frome>h3 {
+    color: rgb(24, 24, 24);
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-content > h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer-content>p {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+input {
+    height: 50px;
+    width: 90%;
+    margin: 10px auto;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+textarea {
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* footer section style end */
+/*  A summary of My Resume section end here */
+}
